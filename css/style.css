@@ -1,5 +1,53 @@
+/* PAGE RULES */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contained{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.inline-block{
+    display: inline-block;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* ////GENERAL RULES */
+/* HEADER SECTION */
+    header{
+        background-color: rgb(49, 97, 224);
+        padding: 20px 0;
+        text-align: center;
+    }
+    header img{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    header button, header img{
+        position: absolute;
+        transform: translate(-0%, -50%);
+        top: 50%;
+        right: 0%;
+    }
+    header button{
+        border: none;
+        padding: 10px;
+        border-radius: 17px;
+    }
+    header li{
+        margin:0 20px;
+    }
+/* ////HEADER SECTION */
