@@ -22,32 +22,44 @@ body{
 }
 a{
     text-decoration: none;
+}
+.white{
     color: white;
 }
 /* ////GENERAL RULES */
 /* HEADER SECTION */
     header{
         background-color: rgb(49, 97, 224);
-        padding: 20px 0;
         text-align: center;
+        /* border: solid black 5px; */
     }
-    header img{
-        position: absolute;
-        top: 0%;
-        left: 0%;
+    header .contained{
+        padding: 20px 0px;
     }
-    header button, header img{
+    header .logo{
         position: absolute;
-        transform: translate(-0%, -50%);
-        top: 50%;
-        right: 0%;
+        top: 0;
+        left: 0;
+        transform: translate(0, 50%);
     }
     header button{
         border: none;
         padding: 10px;
         border-radius: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0, 50%);
     }
     header li{
         margin:0 20px;
+    }
+    header .banner{
+        width: 100%;
+        position: relative;
+    }
+    header .banner>img{
+        display: block;
+        width: 100%;
     }
 /* ////HEADER SECTION */
