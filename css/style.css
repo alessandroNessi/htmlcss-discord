@@ -97,7 +97,7 @@ main section .contained{
     text-align: left;
     padding:100px;
 }
-main section .contained img{
+main section .contained .img-float{
     width: 550px;
     float: left;
     margin-right: 0px;
@@ -116,5 +116,28 @@ main section .contained .section-text p{
 }
 #second-section .contained .section-text{
     float: left;
+}
+#second-section, #bottom-section{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+main .wave{
+    position: relative;
+    display: block;
+    opacity: 0.2;
+    width: 100%;
+    height: 100px;
+}
+img.flip{
+    /* filter:invert(100%); */
+    transform: rotateX(3.14rad);
+}
+#bottom-section .contained .section-text{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#bottom-section .contained img{
+    margin-top: 50px;
+    width: 100%;
 }
 /* ////MAIN SECTION */
