@@ -17,8 +17,8 @@ body{
 }
 .clearfix::after{
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 a{
     text-decoration: none;
@@ -34,24 +34,21 @@ button{
 /* ////GENERAL RULES */
 /* HEADER SECTION */
     header{
-        background-color: rgb(49, 97, 224);
+        background-color: rgb(37, 94, 233);
         text-align: center;
         /* border: solid black 5px; */
     }
     header .contained{
-        padding: 20px 0px;
+        padding: 25px 0px;
+        height: 110px;
+        line-height: 30px;
+        vertical-align: middle;
     }
     header .logo{
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(0, 50%);
+        float: left;
     }
-    header .contained button{
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(0, 50%);
+    header .contained .bottone-nav{
+        float: right;
     }
     header li{
         margin:0 20px;
